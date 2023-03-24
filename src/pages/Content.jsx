@@ -83,7 +83,7 @@ function Content() {
               <Card className="shadow" style={{ borderRadius: "1rem", backgroundColor: pokemonTypeColors[pokemon?.types[0].type.name] }}>
                 <Card.Body className="d-flex justify-content-between">
                   <div>
-                    <Card.Title className="text-light">{pokemon.name}</Card.Title>
+                    <Card.Title className="text-dark">{pokemon.name}</Card.Title>
                     <Card.Text>
                       {pokemon.types.map((type) => {
                         return (
